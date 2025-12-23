@@ -9,11 +9,8 @@ Bu projede, **LSTM + CNN Hybrid** mimarisi kullanılarak Türkçe haber metinler
 
 **Test Accuracy: 92.32%**
 
----
 
 ## Proje Konusu
-
-### Motivasyon
 
 Haber ajansları ve medya kuruluşları günlük olarak binlerce haber üretmektedir. Bu haberlerin manuel olarak kategorilere ayrılması zaman alıcı ve maliyetlidir. Otomatik metin sınıflandırma sistemleri:
 
@@ -21,7 +18,6 @@ Haber ajansları ve medya kuruluşları günlük olarak binlerce haber üretmekt
 - Kullanıcılara kişiselleştirilmiş haber önerileri sunar
 - Bilgiye erişimi hızlandırır
 - Medya takibi ve analizi kolaylaştırır
----
 
 ## Veri Seti
 ---
@@ -61,7 +57,6 @@ Haber ajansları ve medya kuruluşları günlük olarak binlerce haber üretmekt
 | Test | 3,425 | 15.0% |
 
 ---
-
 ## Metodoloji
 
 ### Veri Ön İşleme
