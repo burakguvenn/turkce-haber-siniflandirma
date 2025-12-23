@@ -21,22 +21,10 @@ Haber ajansları ve medya kuruluşları günlük olarak binlerce haber üretmekt
 - Kullanıcılara kişiselleştirilmiş haber önerileri sunar
 - Bilgiye erişimi hızlandırır
 - Medya takibi ve analizi kolaylaştırır
-
-### Literatür
-
-Metin sınıflandırma alanında yapılan önemli çalışmalar:
-
-- **Kim (2014)**: CNN ile metin sınıflandırma
-- **Liu et al. (2016)**: Recurrent CNN (RCNN) modeli
-- **Kılınç et al. (2017)**: TTC-3600 Türkçe benchmark veri seti
-- **Toraman et al. (2022)**: BERTurk - Türkçe BERT modeli
-
-Bu projede LSTM ve CNN'in hibrit kullanımıyla Türkçe haber sınıflandırmasında yüksek başarı (%92.32) elde edilmiştir.
-
 ---
 
 ## Veri Seti
-
+---
 ### Kaynak
 
 - **Veri Seti**: 42,000 Turkish News in 13 Classes
@@ -159,7 +147,7 @@ Bu projede LSTM ve CNN'in hibrit kullanımıyla Türkçe haber sınıflandırmas
 ### Görselleştirmeler
 
 #### Confusion Matrix
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](results/confusion-matrix.png)
 
 ### Karşılaştırmalı Analiz
 
