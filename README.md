@@ -19,8 +19,6 @@ Haber ajansları ve medya kuruluşları günlük olarak binlerce haber üretmekt
 - Bilgiye erişimi hızlandırır
 - Medya takibi ve analizi kolaylaştırır
 
-## Veri Seti
----
 ### Kaynak
 
 - **Veri Seti**: 42,000 Turkish News in 13 Classes
@@ -97,7 +95,6 @@ Haber ajansları ve medya kuruluşları günlük olarak binlerce haber üretmekt
 - Class Weight Balancing
 
 ---
-
 ### Mimari Seçim Gerekçesi
 
 **LSTM Branch:**
@@ -116,7 +113,6 @@ Haber ajansları ve medya kuruluşları günlük olarak binlerce haber üretmekt
 - Robust ve yüksek performanslı sınıflandırma
 
 ---
-
 ## Sonuçlar
 
 ### Genel Performans
