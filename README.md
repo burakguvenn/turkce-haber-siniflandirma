@@ -34,7 +34,6 @@ Haber ajansları ve medya kuruluşları günlük olarak binlerce haber üretmekt
 **Kullanılan (Filtrelenmiş):**
 - 22,833 haber metni
 - 4 kategori (Spor, Güncel, Dünya, Ekonomi)
-- "Genel" kategorisi çıkarıldı (belirsiz içerik)
 
 ### Kategori Dağılımı
 
@@ -66,7 +65,7 @@ Haber ajansları ve medya kuruluşları günlük olarak binlerce haber üretmekt
    - 2 karakterden kısa kelimelerin çıkarılması
 
 2. **Tokenizasyon:**
-   - Kelime dağarcığı: 15,000 kelime
+   - Kelime çeşidi: 15,000 kelime
    - Maksimum sequence uzunluğu: 250 token
    - Padding stratejisi: Post-padding
 
@@ -157,19 +156,3 @@ Haber ajansları ve medya kuruluşları günlük olarak binlerce haber üretmekt
 Model dosyaları boyutları nedeniyle Google Drive'da barındırılmaktadır:
 
 **[Model Dosyalarını İndir](https://drive.google.com/drive/folders/17e8JeBxM9qn14KZJxbhWzsPvc_lIe3zB?usp=sharing)**
-
-İndirilen dosyaları `models/` klasörüne yerleştirin:
----
-
-### Model Değerlendirmesi
-
-```bash
-# Tek bir metin için tahmin
-python src/evaluate.py --text "Fenerbahçe Avrupa'da önemli bir galibiyet aldı"
-```
-
-**Çıktı:**
-```
-Predicted Category: spor
-Confidence: 98.73%
-```
